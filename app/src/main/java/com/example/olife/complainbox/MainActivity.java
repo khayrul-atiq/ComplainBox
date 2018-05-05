@@ -22,6 +22,7 @@ import java.util.HashMap;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+
     private HashMap < Integer, Fragment > fragmentMap = new HashMap< Integer, Fragment>();
     private HashMap < Integer, Integer > indexMap = new HashMap<Integer, Integer>();
     int i = 0;
